@@ -11,4 +11,5 @@ CREATE TABLE student (
 INSERT INTO student (FirstName, LastName) VALUES
   ("John", "Smith"),
   ("Joseph", "Joestar"),
+  ("Jonathan", "Joestar"),
   ("Emma", "Stone");
