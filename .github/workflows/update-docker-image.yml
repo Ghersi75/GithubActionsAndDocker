@@ -1,0 +1,9 @@
+name: Update Docker Image
+
+on: [push]
+
+jobs:
+  Test-Job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Should run on all push events"
