@@ -1,6 +1,9 @@
 name: Update Docker Image
 
-on: [push]
+on: 
+  push:
+    paths:
+      - starterData.sql
 
 jobs:
   Test-Job:
